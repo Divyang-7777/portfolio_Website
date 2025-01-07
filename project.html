@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martel+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<style>
+    <!-- body {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+      } -->
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #e1f2f7;
+    }
+    header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #5c6e58;
+            color: white;
+        }
+    .projects {
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .projects h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+    }
+    .project {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .project img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .project .content {
+        padding: 1rem;
+    }
+    .project h3 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    .project p {
+        margin: 0.5rem 0 0;
+        color: #555;
+    }
+
+      
+</style>
+<body>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+    
+
+    <section class="projects">
+        <h1>Projects</h1>
+        <div class="grid">
+            <div class="project">
+                <img src="https://cdn.dribbble.com/users/9378043/screenshots/16832559/netflix__1__4x.png" height="200px" width="300px" alt="Project 1 Thumbnail">
+                <div class="content">
+                    <h3>Netflix Clone</h3>
+                    <p>A Netflix clone project showcasing responsive design using HTML and CSS for streaming platform UI.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://static.vecteezy.com/system/resources/previews/020/274/817/original/sun-with-cloud-in-flat-icon-weather-app-forecast-summer-climate-free-vector.jpg" height="200px" width="300px" alt="Project 2 Thumbnail">
+                <div class="content">
+                    <h3>Weather App</h3>
+                    <p>A responsive weather app displaying real-time weather updates using HTML and CSS with modern design.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://th.bing.com/th/id/OIP.lz2n6aYCWT3PCUyGwfP3qgHaEJ?w=296&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" height="200px" width="300px"  alt="Project 3 Thumbnail">
+                <div class="content">
+                    <h3>ChatBoat</h3>
+                    <p>A chatbot project providing intelligent, real-time responses, enhancing user interaction and automating communication efficiently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio Website</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martel+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <style>
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #5c6e58;
+            color: white;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #1e90ff;
+        }
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background-color: #f4f4f4;
+        }
+        .hero img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .hero p {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+        }
+        .skills {
+            padding: 2rem;
+            background-color: #e1f2f7;
+        }
+        .skills h2 {
+            text-align: center;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        .skills li {
+            background-color: #5c6e58;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #5c6e58;
+            color: white;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #1e90ff;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #ff6347;
+        }
+          
+        .fa {
+            padding: 5px;
+            text-align: center;
+            margin: 2px 1px;
+            font-size: 30px;
+            width: 25px;
+        }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        .fa-facebook {
+            background: #3b5998;
+            color: white;
+        }
+        .fa-twitter {
+            background: #55acee;
+            color: white;
+        }
+    </style>
+    <body>
+        <header>
+            <h2>Divyang Valand</h2>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">About Me</a></li>
+                    <li><a href="./project.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="hero" id="about">
+                <img
+                    src="https://t3.ftcdn.net/jpg/06/33/54/78/360_F_633547842_AugYzexTpMJ9z1YcpTKUBoqBF0CUCk10.jpg"
+                    alt="profile picture"
+                />
+                <p>
+                    Hello! I'm Divyang, a passionate developer with a love for creating web applications. I enjoy
+                    learning new technologies and improving my skills every day. Let's build something amazing together!
+                </p>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Axngular</li>
+                    <li>MongoDB</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <div>
+                <h5>connect with me:-</h5>
+                <a
+                    href="https://www.linkedin.com/in/shivam-parmar-57562b256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    class="fa fa-linkedin"
+                    ></a
+                >
+                <a
+                    href="https://www.instagram.com/shivam_143___/profilecard/?igsh=MXJpd2VtenQ1aGVqOA=="
+                    class="fa fa-instagram"
+                    ></a
+                >
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="https://www.facebook.com/shivam.parmar.5209?mibextid=ZbWKwL" class="fa fa-facebook"
+                    ></a
+                >
+            </div>
+        </footer>
+    </body>
+</html>
